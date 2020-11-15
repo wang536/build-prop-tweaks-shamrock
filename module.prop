@@ -1,6 +1,6 @@
 id=build-prop-tweaks-shamrock
 name=Build Prop Tweaks for Shamrock
-version=v1
-versionCode=1
+version=v2.0.0rc
+versionCode=1001
 author=omerakgoz34
-description=Some minimal build.prop general optimization tweaks for Shamrock
+description=Shamrock için genel optimizasyon sağlayan build.prop ayarları

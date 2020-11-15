@@ -18,3 +18,4 @@ ro.kernel.checkjni=0
 ro.kernel.android.checkjni=0
 persist.android.strictmode=0
 persist.sys.NV_FPSLIMIT=60
+debug.sf.latch_unsignaled=1
