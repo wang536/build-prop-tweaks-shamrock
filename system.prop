@@ -2,20 +2,14 @@
 # Example: Change dpi
 # ro.sf.lcd_density=320
 
-net.tcp.buffersize.default=4096,87380,256960,4096, 16384,256960
-net.tcp.buffersize.wifi=4096,87380,256960,4096,163 84,256960
-net.tcp.buffersize.umts=4096,87380,256960,4096,163 84,256960
-net.tcp.buffersize.gprs=4096,87380,256960,4096,163 84,256960
-net.tcp.buffersize.edge=4096,87380,256960,4096,163 84,256960
-logcat.live=disable
+debug.sf.nobootanimation=1
 ro.config.vc_call_vol_steps=15
 ro.config.media_vol_steps=30
-debug.sf.nobootanimation=1
+wifi.supplicant_scan_interval=180
+logcat.live=disable
 profiler.force_disable_err_rpt=1
 profiler.force_disable_ulog=1
-wifi.supplicant_scan_interval=180
 ro.kernel.checkjni=0
 ro.kernel.android.checkjni=0
 persist.android.strictmode=0
 persist.sys.NV_FPSLIMIT=60
-debug.sf.latch_unsignaled=1
